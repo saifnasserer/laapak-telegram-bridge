@@ -1,0 +1,30 @@
+# Credentials — NEVER commit
+*.token
+*.env
+server.env
+*.secret
+
+# Per-bot runtime state
+bridge.json
+state-*.json
+*.heartbeat
+
+# User data
+downloads/
+logs/
+history/
+
+# Local working backups
+*.bak.*
+*.bak
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db

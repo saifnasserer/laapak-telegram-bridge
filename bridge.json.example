@@ -1,0 +1,19 @@
+{
+  "name": "lab",
+  "tokenFile": "/path/to/telegram.token",
+  "stateFile": "/path/to/state-lab.json",
+  "pairingCode": "CHANGE_ME_8CHARS",
+  "turnTimeoutMs": 7200000,
+  "opencode": {
+    "baseUrl": "http://127.0.0.1:4097",
+    "serverEnv": "/home/you/.config/opencode-web/server.env"
+  },
+  "workspaceDir": "/home/you/.openclaw-telegram",
+  "memoryFile": "/home/you/.openclaw-telegram/MEMORY.md",
+  "memoryCoreMaxBytes": 4000,
+  "memoryRecallEnable": true,
+  "memoryRecallTopK": 3,
+  "memoryRecallMaxChars": 1500,
+  "logsDir": "/home/you/.openclaw-telegram/bridge/logs/lab",
+  "healthPort": 0
+}
